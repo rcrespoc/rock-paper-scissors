@@ -19,11 +19,11 @@ const d = document,
     spock: ["scissors", "rock"],
   },
   fondosImagenes = {
-    scissors: ["images/icon-scissors.svg", "var(--scissors-gradient)"],
-    paper: ["images/icon-paper.svg", "var(--paper-gradient)"],
-    rock: ["images/icon-rock.svg", "var(--rock-gradient)"],
-    lizard: ["images/icon-lizard.svg", "var(--lizard-gradient)"],
-    spock: ["images/icon-spock.svg", "var(--cyan)"],
+    scissors: ["rock-paper-scissors/images/icon-scissors.svg", "var(--scissors-gradient)"],
+    paper: ["rock-paper-scissors/images/icon-paper.svg", "var(--paper-gradient)"],
+    rock: ["rock-paper-scissors/images/icon-rock.svg", "var(--rock-gradient)"],
+    lizard: ["rock-paper-scissors/images/icon-lizard.svg", "var(--lizard-gradient)"],
+    spock: ["rock-paper-scissors/images/icon-spock.svg", "var(--cyan)"],
   };
 export {
   d,
