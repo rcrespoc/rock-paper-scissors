@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel='stylesheet' href='css/amc.css'>
+  <link rel='stylesheet' href='css/style.css'>
+  <title>Frontend Mentor | Rock, Paper, Scissors</title>
+</head>
+<body class="flex column">
+  <header class="flex m-1 p-0-5 pl-1-5 mx-lg-auto">
+    <img src="images/logo-bonus.svg" alt="Logo Bonus">
+    <section class="score bg-white-1 py-0-5 px-1-5 text-center px-lg-3">
+      <h6>SCORE</h6>
+      <h2 id="score-number">00</h2>
+    </section> <!-- SCORE -->
+  </header> <!-- HEADER -->
+  <main class="flex">
+    <div class="container main-menu">
+      <a id="scissors" class="item scissors"></a>
+      <a id="paper" class="item paper"></a>
+      <a id="rock" class="item rock"></a>
+      <a id="lizard" class="item lizard"></a>
+      <a id="spock" class="item spock"></a>
+    </div>
+    <div class="results-menu none text-center mx-auto mx-md-auto">
+      <div class="elected">
+        <div class="item-elected user"></div>
+        <h3 class="mt-1">YOU PICKED</h3>
+      </div>
+      <div class="elected">
+        <div class="item-elected house"></div>
+        <h3 class="mt-1">THE HOUSE PICKED</h3>
+      </div>
+      <div class="resultado text-center w-100 mt-2">
+        <h1 id="ganador" class="fs-4 text-white-1">...</h1>
+        <a href="#" clasS="btn-play px-4 py-0-5 mt-1 bg-white-1"> PLAY AGAIN</a>
+      </div>
+    </div>
+  </main> <!-- MAIN -->
+  <button class="rules w-30 mx-auto text-white-1 p-0-5 mt-1 mr-md-2">
+    RULES
+  </button> <!-- RULES -->
+  <section class="rules-modal bg-white-1 text-center flex column">
+    <h2 class="my-5">RULES</h2>
+    <img class="w-80 mx-auto" src="images/image-rules-bonus.svg" alt="Rules Image">
+    <button class="btn-close"><img src="images/icon-close.svg" alt="Icon Close"></button>
+  </section>
+  <footer class="attribution py-1 text-white-1 text-center bg-black-1 mt-2">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. <br>
+    Coded by <a href="https://github.com/rcrespoc/" target="_blank" rel="noopener">Richard Crespo</a>.
+  </footer>
+  <script src="js/script.js" type="module"></script>
+</body>
+</html>
